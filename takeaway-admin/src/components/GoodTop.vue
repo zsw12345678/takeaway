@@ -1,6 +1,5 @@
 <template>
   <el-form class="goodTop">
-    <h1>{{titleName}}</h1>
     <el-form-item label="选择店铺" style="margin: 0">
       <el-select
         v-model="shopId"
@@ -66,17 +65,20 @@
   }
 </script>
 
-<style lang='stylus' rel='stylesheet/stylus'>
-  .goodTop
-    display: flex
-    flex-direction: row
-    align-items: center
-    justify-content: space-between
-    margin-bottom: 1rem
-    .el-form-item__content
-      margin-right: 20px
-    .el-form-item__label
-      width 90px
-      font-size 16px
-      font-weight bold
+<style lang='less'>
+  .goodTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 1rem;
+
+    .el-form-item__content {
+      margin-right: 20px;
+    }
+    .el-form-item__label {
+      width: 90px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+  }
 </style>

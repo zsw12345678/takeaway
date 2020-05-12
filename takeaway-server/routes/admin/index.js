@@ -6,6 +6,11 @@ const Category = require('../../models/Category');
 const Shop = require('../../models/Shop');
 const Menu = require('../../models/Menu');
 const Good = require('../../models/Good');
+const AdminUser = require('../../models/AdminUser');
+const authMiddleware = require('../../middleware/auth');  // 验证用户是否登录
+const resourceMiddleware = require('../../middleware/resource');  // 获取相应的Model
+const assert = require('http-assert');
+const jwt = require('jsonwebtoken');
 
 module.exports = app => {
   const express = require("express");
@@ -17,7 +22,6 @@ module.exports = app => {
   /* 创建数据 */
   router.post('/', async (req, res) => {
     const data = await req.Model.create(req.body);
-    console.log(data)
     res.send(JSON.stringify(data));
   });
 
@@ -58,25 +62,20 @@ module.exports = app => {
   });
 
   // 增删改查（CRUD）通用接口
-  app.use('/admin/api/rest/:resource', async (req, res, next) => {
-    const modelName = require('inflection').classify(req.params.resource);
-    // 获取数据库分类模板  重点！！！
-    req.Model = await require(`../../models/${modelName}`);
-    next();
-  }, router);
+  app.use('/admin/api/rest/:resource', authMiddleware(), resourceMiddleware(), router);
 
   /* 上传图片接口 */
   const multer = require('multer');
   const { resolve } = require('path');
   const upload = multer({dest: resolve(__dirname, '/../../uploads')});
-  app.post('/admin/api/upload', upload.single('file'), async (req, res) => {
+  app.post('/admin/api/upload', authMiddleware(), upload.single('file'), async (req, res) => {
     const file = req.file;
     file.url = `http://localhost:4000/uploads/${file.filename}`;
     res.send(file);
   });
 
   /* 获取某 id 店铺的商品分类列表 */
-  app.get('/admin/api/menus/:shopId', async (req, res) => {
+  app.get('/admin/api/menus/:shopId', authMiddleware(), async (req, res) => {
     const shopId = mongoose.Types.ObjectId(req.params.shopId);
     await Menu.find({"shop_id": shopId}).exec(function (err, data) {
       if (err) {
@@ -88,7 +87,7 @@ module.exports = app => {
   });
 
   /* 获取某 id 店铺的商品列表 */
-  app.get('/admin/api/goods/:shopId', async (req, res) => {
+  app.get('/admin/api/goods/:shopId', authMiddleware(), async (req, res) => {
     const shopId = mongoose.Types.ObjectId(req.params.shopId);
     await Good.find({"shop_id": shopId}).populate('menu_id').exec(function (err, data) {
       if (err) {
@@ -97,7 +96,33 @@ module.exports = app => {
       }
       res.send(JSON.stringify(data));
     });
+  });
+
+  /* 登录后台接口 */
+  app.post('/admin/api/login', async (req, res) => {
+    const {username, password} = req.body;
+    // 根据用户名找用户
+    const user = await AdminUser.findOne({username}).select('+password');
+    /* if (!user) {
+      return res.status(422).send({
+        message: '用户不存在'
+      })
+    } */
+    assert(user, 422, '用户不存在');
+
+    // 验证密码
+    const isValid = require('bcryptjs').compareSync(password, user.password);
+    assert(isValid, 422, '密码错误');
+
+    // 返回token
+    const token = jwt.sign({_id: user._id}, app.get('secret'));
+    res.send({token})
+  });
+
+  /* 错误处理函数 */
+  app.use(async (err, req, res, next) => {
+    res.status(err.statusCode || 500).send({
+      message: err.message
+    })
   })
-
-
 };

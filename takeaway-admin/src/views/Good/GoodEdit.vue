@@ -1,7 +1,9 @@
 <template>
   <div>
+    <headTop></headTop>
     <good-top :id="$route.query.shopId" @getShop="getShop" />
-    <el-tabs type="border-card" v-model="activeName">
+    <div class="table_container">
+      <el-tabs type="border-card" v-model="activeName">
       <el-tab-pane label="商品分类" name="menu">
         <p style="margin: 0 0 20px 5px; font-size: 18px" v-if="menus.length">该店铺共有 {{menus.length}} 个商品分类</p>
         <p v-else-if="this.shopId">该店铺暂无商品分类.....</p>
@@ -34,60 +36,68 @@
         </el-form>
       </el-tab-pane>
       <el-tab-pane :label="$route.query.goodId? '编辑商品': '添加商品'" name="good">
-        <el-form :model="good"
+        <el-row style="margin-top: 15px;">
+          <el-col :span="15" :offset="4">
+            <el-form :model="good"
                  ref="good"
                  :rules="rules"
                  label-width="120px"
                  :validate-on-rule-change="false"
                  @submit.native.prevent="saveGood">
-          <el-form-item label="商品名称" prop="name">
-            <el-input v-model="good.name" placeholder="请输入商品名称"></el-input>
-          </el-form-item>
-          <el-form-item label="所属分类" prop="menu">
-            <el-select v-model="good.menu_id" placeholder="请选择分类">
-              <el-option
-                v-for="menu in menus"
-                :key="menu._id"
-                :label="menu.name"
-                :value="menu._id">
-              </el-option>
-            </el-select>
-          </el-form-item>
-          <el-form-item label="商品图片" prop="icon">
-            <el-upload
-              class="avatar-uploader"
-              :action="$http.defaults.baseURL + '/upload'"
-              :show-file-list="false"
-              :on-success="afterUpload">
-              <img v-if="good.icon" :src="good.icon" class="avatar">
-              <i v-else class="el-icon-plus avatar-uploader-icon"></i>
-            </el-upload>
-          </el-form-item>
-          <el-form-item label="现价" prop="price">
-            <el-input v-model.number="good.price" style="width: 50%; margin-right: 10px" placeholder="请输入商品价格（单位为元）"></el-input>
-          </el-form-item>
-          <el-form-item label="原价" prop="oldPrice">
-            <el-input v-model.number="good.oldPrice" style="width: 50%; margin-right: 10px" placeholder="请输入商品原价（单位为元）"></el-input>
-          </el-form-item>
-          <el-form-item label="商品介绍" prop="info">
-            <el-input v-model="good.info" type="textarea" style="width: 50%; margin-right: 10px" placeholder="请输入商品介绍"></el-input>
-          </el-form-item>
-          <el-form-item style="margin-top: 2rem">
-            <el-button type="primary" native-type="submit">保存到店铺商品列表中</el-button>
-            <el-button @click="resetForm('good')">重置</el-button>
-          </el-form-item>
-        </el-form>
+              <el-form-item label="商品名称" prop="name">
+                <el-input v-model="good.name" placeholder="请输入商品名称"></el-input>
+              </el-form-item>
+              <el-form-item label="所属分类" prop="menu">
+                <el-select v-model="good.menu_id" placeholder="请选择分类">
+                  <el-option
+                    v-for="menu in menus"
+                    :key="menu._id"
+                    :label="menu.name"
+                    :value="menu._id">
+                  </el-option>
+                </el-select>
+              </el-form-item>
+              <el-form-item label="商品图片" prop="icon">
+                <el-upload
+                  class="avatar-uploader"
+                  :action="uploadUrl"
+                  :headers="getAuthHeaders()"
+                  :show-file-list="false"
+                  :on-success="afterUpload">
+                  <img v-if="good.icon" :src="good.icon" class="avatar">
+                  <i v-else class="el-icon-plus avatar-uploader-icon"></i>
+                </el-upload>
+              </el-form-item>
+              <el-form-item label="现价" prop="price">
+                <el-input v-model.number="good.price" placeholder="请输入商品价格（单位为元）"></el-input>
+              </el-form-item>
+              <el-form-item label="原价" prop="oldPrice">
+                <el-input v-model.number="good.oldPrice" placeholder="请输入商品原价（单位为元）"></el-input>
+              </el-form-item>
+              <el-form-item label="商品介绍" prop="info">
+                <el-input v-model="good.info" type="textarea" placeholder="请输入商品介绍"></el-input>
+              </el-form-item>
+              <el-form-item style="margin-top: 2rem">
+                <el-button type="primary" native-type="submit">保存到店铺商品列表中</el-button>
+                <el-button @click="resetForm('good')">重置</el-button>
+              </el-form-item>
+            </el-form>
+          </el-col>
+        </el-row>
       </el-tab-pane>
     </el-tabs>
-  </div>
+    </div>
+    </div>
 </template>
 
 <script>
   import GoodTop from '../../components/GoodTop'
+  import headTop from '../../components/headTop'
 
   export default {
     components: {
-      GoodTop
+      GoodTop,
+      headTop
     },
 
     data () {
@@ -238,18 +248,23 @@
   }
 </script>
 
-<style lang='stylus' rel='stylesheet/stylus'>
-  .el-tag, .button-new-tag {
-    margin-right: 15px;
-    margin-bottom: 15px;
-    height: 38px;
-    line-height: 38px;
-    padding-top: 0;
-    padding-bottom: 0;
-    font-size: 15px;
-  }
-  .button-new-tag {
-    margin-top: 5px;
-    margin-bottom: 25px;
+<style lang='less'>
+  .table_container {
+    padding: 20px;
+
+    .el-tag, .button-new-tag {
+      margin-right: 15px;
+      margin-bottom: 15px;
+      height: 38px;
+      line-height: 38px;
+      padding-top: 0;
+      padding-bottom: 0;
+      font-size: 15px;
+    }
+
+    .button-new-tag {
+      margin-top: 5px;
+      margin-bottom: 25px;
+    }
   }
 </style>
