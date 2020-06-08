@@ -48,7 +48,7 @@
                 <el-input v-model="good.name" placeholder="请输入商品名称"></el-input>
               </el-form-item>
               <el-form-item label="所属分类" prop="menu">
-                <el-select v-model="good.menu_id" placeholder="请选择分类">
+                <el-select v-model="good.menu_id" multiple placeholder="请选择分类">
                   <el-option
                     v-for="menu in menus"
                     :key="menu._id"
@@ -112,7 +112,7 @@
         inputShow: false, // 分类输入框显示
         good: {  // 商品信息
           name: '',
-          menu_id: '',
+          menu_id: [],
           icon: '',
           price: '',
           oldPrice: '',
@@ -222,6 +222,9 @@
       getShop (id) {
         this.shopId = id;
         this.showMenus(id);
+        if (this.$route.query.shopId !== id) {
+          this.resetForm('good');
+        }
       },
 
       // 隐藏商品分类输入框
@@ -233,6 +236,7 @@
       // 重置表单
       resetForm (formName) {
         this.$refs[formName].resetFields();
+        this.good.menu_id = '';
       },
 
       // 上传图片成功后执行的方法

@@ -12,6 +12,14 @@ const resourceMiddleware = require('../../middleware/resource');  // 获取相�
 const assert = require('http-assert');
 const jwt = require('jsonwebtoken');
 
+function random (min, max, index=0) {
+  if (index === 0) {
+    return Math.round((Math.random() * (max - min) + min))
+  } else {
+    return Math.round((Math.random() * (max - min) + min) * 10) / 10
+  }
+}
+
 module.exports = app => {
   const express = require("express");
   const router = express.Router({
@@ -21,6 +29,16 @@ module.exports = app => {
 
   /* 创建数据 */
   router.post('/', async (req, res) => {
+    if (req.Model.modelName === 'Shop') {
+      req.body.serviceScore = random(3.8, 5, 1);
+      req.body.foodScore = random(3.8, 5, 1);
+      req.body.score = ((req.body.serviceScore + req.body.foodScore) / 2).toFixed(1);
+      req.body.rankRate = random(20, 90);
+      req.body.ratingCount = random(10, 40);
+      req.body.sellCount = random(30, 100);
+      req.body.deliveryTime = random(10, 60);
+      req.body.distance = random(50, 2000);
+    }
     const data = await req.Model.create(req.body);
     res.send(JSON.stringify(data));
   });
@@ -32,9 +50,6 @@ module.exports = app => {
     const queryOptions = {};
     const model = req.Model.modelName;
     switch (model) {
-      case 'Category':
-        queryOptions.populate = 'parent';
-        break;
       case 'Shop':
         queryOptions.populate = { path: 'categories'};
         break;
@@ -86,7 +101,7 @@ module.exports = app => {
     });
   });
 
-  /* 获取某 id 店铺的商品列表 */
+  /* 获取某 id 店铺的纯商品列表 */
   app.get('/admin/api/goods/:shopId', authMiddleware(), async (req, res) => {
     const shopId = mongoose.Types.ObjectId(req.params.shopId);
     await Good.find({"shop_id": shopId}).populate('menu_id').exec(function (err, data) {
@@ -103,11 +118,6 @@ module.exports = app => {
     const {username, password} = req.body;
     // 根据用户名找用户
     const user = await AdminUser.findOne({username}).select('+password');
-    /* if (!user) {
-      return res.status(422).send({
-        message: '用户不存在'
-      })
-    } */
     assert(user, 422, '用户不存在');
 
     // 验证密码

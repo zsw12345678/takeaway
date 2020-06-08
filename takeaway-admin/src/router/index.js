@@ -9,6 +9,8 @@ import GoodEdit from "../views/Good/GoodEdit";
 import GoodList from "../views/Good/GoodList";
 import AdminUserEdit from "../views/AdminUser/AdminUserEdit";
 import AdminUserList from "../views/AdminUser/AdminUserList";
+import UserList from "../views/User/UserList"
+import OrderList from "../views/Order/OrderList"
 import Login from "../views/Login/Login";
 
 Vue.use(VueRouter);
@@ -44,6 +46,9 @@ const routes = [
       {path: '/admin_users/create', component: AdminUserEdit, meta: ['权限管理', '添加管理员']},
       {path: '/admin_users/edit/:id', component: AdminUserEdit, meta: ['权限管理', '管理员编辑'], props: true},
       {path: '/admin_users/list', component: AdminUserList, meta: ['权限管理', '管理员列表']},
+
+      {path: '/user_list', component: UserList, meta: ['用户数据', '用户列表']},
+      {path: '/order_list', component: OrderList, meta: ['用户数据', '订单列表']}
     ]
   }
 ];

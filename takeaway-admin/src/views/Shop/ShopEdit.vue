@@ -53,9 +53,6 @@
           <el-form-item label="配送方式" prop="deliveryMode">
             <el-input v-model="shop.deliveryMode" placeholder="请输入配送方式"></el-input>
           </el-form-item>
-          <el-form-item label="配送时长" prop="deliveryTime">
-            <el-input v-model.number="shop.deliveryTime" placeholder="请输入配送时长（单位为分钟）"></el-input>
-          </el-form-item>
           <el-form-item label="起送价" prop="minPrice">
             <el-input v-model.number="shop.minPrice" placeholder="请输入起送价（单位为元）"></el-input>
           </el-form-item>
@@ -96,7 +93,6 @@
           deliveryMode: '迅捷专送',
           minPrice: 0,
           deliveryPrice: 0,
-          deliveryTime: '',
           bulletin: '',
           phone: '',
           address: '',
@@ -126,10 +122,6 @@
           deliveryMode: [
             { required: true, message: '配送方式不能为空', trigger: ['blur', 'change'] }
           ],
-          deliveryTime: [
-            { required: true, message: '配送时长不能为空', trigger: ['blur', 'change'] },
-            { type: 'number', message: '配送时长必须为数字值', trigger: ['blur', 'change']}
-          ],
           minPrice: [
             { type: 'number', message: '起送价必须为数字值', trigger: ['blur', 'change'] }
           ],
@@ -150,7 +142,7 @@
           // DOM渲染完成才执行
           this.$nextTick(() => {
             // 重置表单
-            this.id ? this.fetch(): this.$refs['shop'].resetFields();
+            this.id ? this.fetchShop(): this.$refs['shop'].resetFields();
           });
         },
         deep: true // 深度观察监听

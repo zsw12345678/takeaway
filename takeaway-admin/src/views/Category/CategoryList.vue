@@ -5,8 +5,6 @@
       <el-table :data="items">
         <el-table-column prop="_id" label="分类ID" width="250">
         </el-table-column>
-        <el-table-column prop="parent.name" label="上级分类">
-        </el-table-column>
         <el-table-column prop="name" label="分类名称">
         </el-table-column>
         <el-table-column
@@ -67,8 +65,6 @@
             });
           }
         })
-
-
       }
     }
 }

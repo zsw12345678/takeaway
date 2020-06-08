@@ -5,4 +5,5 @@ module.exports = options => {
     req.Model = await require(`../models/${modelName}`);
     next();
   };
-}
+};
+

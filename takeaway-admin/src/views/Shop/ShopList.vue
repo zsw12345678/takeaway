@@ -35,6 +35,9 @@
           </template>
         </el-table-column>
         <el-table-column prop="bulletin" label="店铺公告" width="150" show-overflow-tooltip>
+          <template slot-scope="scope">
+            <span>{{scope.row.bulletin? scope.row.bulletin: '/'}}</span>
+          </template>
         </el-table-column>
         <el-table-column prop="phone" label="联系号码" width="120" show-overflow-tooltip>
         </el-table-column>

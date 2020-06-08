@@ -2,35 +2,73 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18fbcb04-c915-4fdb-b4fe-7353a8857ccd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/takeaway-app/src/api/fetch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takeaway-app/src/common/images/address_bottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takeaway-app/src/common/scss/mixin.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takeaway-app/src/components/images/icon_loading.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takeaway-app/src/pages/City/City.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takeaway-app/src/pages/CityList/CityList.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takeaway-app/src/pages/Location/Location.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takeaway-app/src/pages/confirmOrder/confirmOrder.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takeaway-app/src/utils/mUtils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/takeaway-app/src/utils/rem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/takeaway-admin/src/views/Order/OrderList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/takeaway-admin/src/views/User/UserList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/takeaway-app/src/common/images/add_address.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/takeaway-app/src/common/images/add_phone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/takeaway-app/src/common/images/bindphone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/takeaway-app/src/pages/AddressEdit/AddressEdit.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/takeaway-app/src/pages/AddressList/AddressList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/takeaway-app/src/pages/Info/Info.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/takeaway-app/src/pages/Info/images/head.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/takeaway-app/src/pages/OrderDetail/OrderDetail.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/takeaway-app/src/pages/SetInfo/SetInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/takeaway-app/static/js/area.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/takeaway-server/models/Address.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/takeaway-server/models/Order.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/takeaway-admin/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-admin/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/takeaway-admin/src/views/Category/CategoryEdit.vue" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-admin/src/views/Category/CategoryEdit.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/takeaway-admin/src/views/Category/CategoryList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-admin/src/views/Category/CategoryList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/takeaway-admin/src/views/Good/GoodEdit.vue" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-admin/src/views/Good/GoodEdit.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/takeaway-admin/src/views/Good/GoodList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-admin/src/views/Good/GoodList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/takeaway-admin/src/views/Main.vue" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-admin/src/views/Main.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/takeaway-admin/src/views/Shop/ShopEdit.vue" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-admin/src/views/Shop/ShopEdit.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/takeaway-admin/src/views/Shop/ShopList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-admin/src/views/Shop/ShopList.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/takeaway-app" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-app" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/takeaway-app/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-app/config/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/takeaway-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/takeaway-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/takeaway-app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-app/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/takeaway-app/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-app/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/takeaway-app/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-app/src/api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/takeaway-app/src/common/scss/mixin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-app/src/common/scss/mixin.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/takeaway-app/src/components/FooterCuide/FooterGuide.vue" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-app/src/components/FooterCuide/FooterGuide.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/takeaway-app/src/components/HeaderTop/HeaderTop.vue" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-app/src/components/HeaderTop/HeaderTop.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/takeaway-app/src/components/OrderList/OrderList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-app/src/components/OrderList/OrderList.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/takeaway-app/src/components/ShopCart/ShopCart.vue" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-app/src/components/ShopCart/ShopCart.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/takeaway-app/src/components/ShopHeader/ShopHeader.vue" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-app/src/components/ShopHeader/ShopHeader.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/takeaway-app/src/components/ShopList/ShopList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-app/src/components/ShopList/ShopList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/takeaway-app/src/local/index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/takeaway-app/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-app/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/takeaway-app/src/mock/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-app/src/mock/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/takeaway-app/src/mock/mockServer.js" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-app/src/mock/mockServer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/takeaway-app/src/pages/CityList/CityList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-app/src/pages/CityList/CityList.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/takeaway-app/src/pages/Home/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-app/src/pages/Home/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/takeaway-app/src/pages/Location/Location.vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/takeaway-app/src/pages/Login/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-app/src/pages/Login/Login.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/takeaway-app/src/pages/Order/Order.vue" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-app/src/pages/Order/Order.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/takeaway-app/src/pages/Profile/Profile.vue" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-app/src/pages/Profile/Profile.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/takeaway-app/src/pages/Search/Search.vue" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-app/src/pages/Search/Search.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/takeaway-app/src/pages/Shop/Shop.vue" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-app/src/pages/Shop/Shop.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/takeaway-app/src/pages/Shop/ShopGoods/ShopGoods.vue" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-app/src/pages/Shop/ShopGoods/ShopGoods.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/takeaway-app/src/pages/Shop/ShopInfo/ShopInfo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-app/src/pages/Shop/ShopInfo/ShopInfo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/takeaway-app/src/pages/Shop/ShopRatings/ShopRatings.vue" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-app/src/pages/Shop/ShopRatings/ShopRatings.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/takeaway-app/src/pages/confirmOrder/confirmOrder.vue" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-app/src/pages/confirmOrder/ConfirmOrder.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/takeaway-app/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-app/src/router/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/takeaway-app/src/store/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-app/src/store/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/takeaway-app/src/store/getters.js" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-app/src/store/getters.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/takeaway-app/src/store/mutation-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-app/src/store/mutation-types.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/takeaway-app/src/store/mutations.js" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-app/src/store/mutations.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/takeaway-app/src/store/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-app/src/store/state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/takeaway-app/src/utils/mUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-app/src/utils/mUtils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/takeaway-server.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/takeaway-server/api/ajax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/takeaway-server/middleware/resource.js" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-server/middleware/resource.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/takeaway-server/models/Category.js" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-server/models/Category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/takeaway-server/models/Good.js" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-server/models/Good.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/takeaway-server/models/Shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-server/models/Shop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/takeaway-server/models/WebUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-server/models/WebUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/takeaway-server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/takeaway-server/routes/admin/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-server/routes/admin/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/takeaway-server/routes/web/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/takeaway-server/routes/web/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,13 +82,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/takeaway-app/src/pages/Home/Home.vue">
+        <entry file="file://$PROJECT_DIR$/takeaway-app/src/pages/Order/Order.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="217" column="12" selection-start-line="217" selection-start-column="12" selection-end-line="217" selection-end-column="21" />
-              <folding>
-                <element signature="e#2843#2872#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1566">
+              <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/takeaway-server/util/sms_util.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="621">
+              <caret line="23" column="29" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -58,8 +102,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/takeaway-server/routes/web/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="50" column="22" lean-forward="true" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+            <state relative-caret-position="79">
+              <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -68,45 +112,75 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/takeaway-app/src/pages/confirmOrder/confirmOrder.vue">
+        <entry file="file://$PROJECT_DIR$/takeaway-app/src/pages/Login/Login.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="72" column="31" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
+            <state relative-caret-position="-580">
+              <caret line="181" column="10" lean-forward="true" selection-start-line="175" selection-start-column="8" selection-end-line="181" selection-end-column="10" />
               <folding>
-                <element signature="n#header-top#0;n#section#0;n#div#0;n#template#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#router-link#0;n#section#0;n#div#0;n#template#0;n#!!top" />
-                <element signature="n#router-link#0;n#section#3;n#section#0;n#div#0;n#template#0;n#!!top" />
-                <element signature="n#router-link#1;n#section#3;n#section#0;n#div#0;n#template#0;n#!!top" />
-                <element signature="e#5030#5069#0" expanded="true" />
-                <element signature="e#11923#12831#0" />
+                <element signature="e#2643#2703#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/takeaway-app/src/mock/shops.json">
+        <entry file="file://$PROJECT_DIR$/takeaway-server/models/AdminUser.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="11" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="11" />
+            <state relative-caret-position="216">
+              <caret line="8" column="30" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/takeaway-app/src/mock/data.json">
+        <entry file="file://$PROJECT_DIR$/takeaway-app/src/store/actions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="17" />
+            <state relative-caret-position="3834">
+              <caret line="179" column="14" selection-start-line="179" selection-start-column="14" selection-end-line="179" selection-end-column="14" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/takeaway-server/util/sms_util.js">
+        <entry file="file://$PROJECT_DIR$/takeaway-app/src/api/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1719">
-              <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+            <state relative-caret-position="1944">
+              <caret line="75" column="27" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/takeaway-app/src/api/ajax.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/takeaway-server/routes/admin/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1647">
+              <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/takeaway-app/src/pages/OrderDetail/OrderDetail.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -123,36 +197,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>sourceMap</find>
-      <find>CityList</find>
-      <find>!=</find>
-      <find>==</find>
-      <find>placelist</find>
-      <find>historytitle</find>
-      <find>placeHistory</find>
-      <find>nextpage</find>
-      <find>svg-captcha</find>
-      <find>hongbo</find>
-      <find>choosePayWay</find>
-      <find>Array</find>
-      <find>confirmOrder</find>
-      <find>tipMove</find>
-      <find>checkout</find>
-      <find>getAddress</find>
-      <find>imgBaseUrl</find>
-      <find>choosedAddress</find>
-      <find>cartList</find>
-      <find>checkoutData</find>
-      <find>geohash</find>
-      <find>guessCity</find>
-      <find>登</find>
-      <find>add_address</find>
-      <find>location_icon</find>
-      <find>location</find>
-      <find>icon-location</find>
-      <find>address_empty_right</find>
-      <find>svg</find>
-      <find>reqAddress</find>
+      <find>showLoading</find>
+      <find>orderData</find>
+      <find>order_again</find>
+      <find>arrow_right</find>
+      <find>iconfont</find>
+      <find>food_list_header</find>
+      <find>food_name</find>
+      <find>pay_ment</find>
+      <find>order_detail_page</find>
+      <find>scroll_container</find>
+      <find>serviceTime</find>
+      <find>car</find>
+      <find>children</find>
+      <find>consol</find>
+      <find>cart</find>
+      <find>length</find>
+      <find>price</find>
+      <find>shop-info</find>
+      <find>hasGetData</find>
+      <find>shop</find>
+      <find>goods-price</find>
+      <find>.goods</find>
+      <find>reqSearchShops</find>
+      <find>goods</find>
+      <find>editGood</find>
+      <find>Good</find>
+      <find>商品</find>
+      <find>管理员</find>
+      <find>admin</find>
+      <find>USER</find>
     </findStrings>
     <replaceStrings>
       <replace>infos</replace>
@@ -168,6 +242,16 @@
       <replace>username</replace>
       <replace>WebUser</replace>
       <replace>City</replace>
+      <replace>data</replace>
+      <replace>mockInfo</replace>
+      <replace>goodsData</replace>
+      <replace>shopInfo</replace>
+      <replace>orderDetail</replace>
+      <replace>users</replace>
+      <replace>User</replace>
+      <replace>用户</replace>
+      <replace>web</replace>
+      <replace>OD</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -178,57 +262,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/takeaway-app/src/pages/Shop/ShopInfo/ShopInfo.vue" />
-        <option value="$PROJECT_DIR$/takeaway-admin/src/router/index.js" />
-        <option value="$PROJECT_DIR$/takeaway-admin/src/views/Main.vue" />
+        <option value="$PROJECT_DIR$/takeaway-app/src/main.js" />
+        <option value="$PROJECT_DIR$/takeaway-server/models/WebUser.js" />
+        <option value="$PROJECT_DIR$/takeaway-app/src/common/scss/mixin.scss" />
+        <option value="$PROJECT_DIR$/takeaway-app/src/pages/Info/SetInfo/SetInfo.vue" />
+        <option value="$PROJECT_DIR$/takeaway-app/src/pages/SetInfo/SetInfo.vue" />
+        <option value="$PROJECT_DIR$/takeaway-app/src/pages/Login/Login.vue" />
+        <option value="$PROJECT_DIR$/takeaway-app/src/App.vue" />
+        <option value="$PROJECT_DIR$/takeaway-app/src/pages/Info/Info.vue" />
+        <option value="$PROJECT_DIR$/takeaway-app/src/pages/Profile/Profile.vue" />
+        <option value="$PROJECT_DIR$/takeaway-app/src/pages/AddressList/AddressList.vue" />
+        <option value="$PROJECT_DIR$/takeaway-app/src/mock/data.json" />
         <option value="$PROJECT_DIR$/takeaway-admin/src/views/Shop/ShopEdit.vue" />
+        <option value="$PROJECT_DIR$/takeaway-admin/src/views/Shop/ShopList.vue" />
+        <option value="$PROJECT_DIR$/takeaway-server/models/Category.js" />
         <option value="$PROJECT_DIR$/takeaway-admin/src/views/Category/CategoryEdit.vue" />
-        <option value="$PROJECT_DIR$/takeaway-admin/src/views/AdminUser/AdminUserEdit.vue" />
-        <option value="$PROJECT_DIR$/takeaway-admin/src/components/headTop.vue" />
-        <option value="$PROJECT_DIR$/takeaway-admin/src/views/Home/Home.vue" />
-        <option value="$PROJECT_DIR$/takeaway-admin/src/components/tendency.vue" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/takeaway-server/data/data.json" />
-        <option value="$PROJECT_DIR$/takeaway-admin/src/components/GoodTop.vue" />
-        <option value="$PROJECT_DIR$/takeaway-admin/src/views/AdminUser/AdminUserList.vue" />
         <option value="$PROJECT_DIR$/takeaway-admin/src/views/Category/CategoryList.vue" />
+        <option value="$PROJECT_DIR$/takeaway-server/models/Good.js" />
         <option value="$PROJECT_DIR$/takeaway-admin/src/views/Good/GoodEdit.vue" />
         <option value="$PROJECT_DIR$/takeaway-admin/src/views/Good/GoodList.vue" />
-        <option value="$PROJECT_DIR$/takeaway-admin/src/views/Login/Login.vue" />
-        <option value="$PROJECT_DIR$/takeaway-admin/src/views/Shop/ShopList.vue" />
-        <option value="$PROJECT_DIR$/takeaway-server/index.js" />
-        <option value="$PROJECT_DIR$/takeaway-server/plugins/db.js" />
-        <option value="$PROJECT_DIR$/takeaway-server/models/WebUser.js" />
-        <option value="$PROJECT_DIR$/takeaway-app/config/index.js" />
-        <option value="$PROJECT_DIR$/takeaway-app/src/utils/rem.js" />
-        <option value="$PROJECT_DIR$/takeaway-app/src/utils/main.js" />
-        <option value="$PROJECT_DIR$/takeaway-app/src/main.js" />
-        <option value="$PROJECT_DIR$/takeaway-app/src/pages/Location/Location.vue" />
-        <option value="$PROJECT_DIR$/takeaway-app/static/css/reset.css" />
-        <option value="$PROJECT_DIR$/takeaway-app/src/common/scss/common.scss" />
-        <option value="$PROJECT_DIR$/takeaway-app/src/api/fetch.js" />
-        <option value="$PROJECT_DIR$/takeaway-app/src/utils/mUtils.js" />
-        <option value="$PROJECT_DIR$/takeaway-app/src/components/HeaderTop/HeaderTop.vue" />
-        <option value="$PROJECT_DIR$/takeaway-app/src/common/scss/mixin.scss" />
-        <option value="$PROJECT_DIR$/takeaway-app/src/store/state.js" />
-        <option value="$PROJECT_DIR$/takeaway-app/src/App.vue" />
-        <option value="$PROJECT_DIR$/takeaway-app/src/pages/Login/Login.vue" />
-        <option value="$PROJECT_DIR$/takeaway-app/package.json" />
-        <option value="$PROJECT_DIR$/takeaway-server/package.json" />
-        <option value="$PROJECT_DIR$/takeaway-server/routes/web/index.js" />
-        <option value="$PROJECT_DIR$/takeaway-app/src/router/index.js" />
+        <option value="$PROJECT_DIR$/takeaway-server/models/Shop.js" />
+        <option value="$PROJECT_DIR$/takeaway-server/models/Menu.js" />
+        <option value="$PROJECT_DIR$/takeaway-app/src/mock/mockServer.js" />
+        <option value="$PROJECT_DIR$/takeaway-app/src/pages/Shop/ShopRatings/ShopRatings.vue" />
+        <option value="$PROJECT_DIR$/takeaway-server/routes/admin/index.js" />
+        <option value="$PROJECT_DIR$/takeaway-app/src/pages/Shop/ShopInfo/ShopInfo.vue" />
+        <option value="$PROJECT_DIR$/takeaway-app/src/components/ShopHeader/ShopHeader.vue" />
+        <option value="$PROJECT_DIR$/takeaway-server/models/Address.js" />
+        <option value="$PROJECT_DIR$/takeaway-app/src/pages/Shop/Shop.vue" />
         <option value="$PROJECT_DIR$/takeaway-app/src/components/ShopCart/ShopCart.vue" />
-        <option value="$PROJECT_DIR$/takeaway-app/src/components/AlertTip/AlertTip.vue" />
-        <option value="$PROJECT_DIR$/takeaway-app/src/components/Loading/Loading.vue" />
-        <option value="$PROJECT_DIR$/takeaway-app/src/pages/City/City.vue" />
-        <option value="$PROJECT_DIR$/takeaway-app/src/pages/CityList/CityList.vue" />
-        <option value="$PROJECT_DIR$/takeaway-app/src/api/index.js" />
-        <option value="$PROJECT_DIR$/takeaway-app/src/pages/Order/Order.vue" />
-        <option value="$PROJECT_DIR$/takeaway-app/src/pages/Home/Home.vue" />
-        <option value="$PROJECT_DIR$/takeaway-app/src/store/actions.js" />
+        <option value="$PROJECT_DIR$/takeaway-app/src/store/state.js" />
         <option value="$PROJECT_DIR$/takeaway-app/src/store/mutation-types.js" />
         <option value="$PROJECT_DIR$/takeaway-app/src/store/mutations.js" />
-        <option value="$PROJECT_DIR$/takeaway-app/src/pages/confirmOrder/confirmOrder.vue" />
+        <option value="$PROJECT_DIR$/takeaway-app/src/store/actions.js" />
+        <option value="$PROJECT_DIR$/takeaway-app/src/router/index.js" />
+        <option value="$PROJECT_DIR$/takeaway-app/src/store/getters.js" />
+        <option value="$PROJECT_DIR$/takeaway-app/src/utils/mUtils.js" />
+        <option value="$PROJECT_DIR$/takeaway-server/models/Order.js" />
+        <option value="$PROJECT_DIR$/takeaway-app/src/pages/confirmOrder/ConfirmOrder.vue" />
+        <option value="$PROJECT_DIR$/takeaway-app/src/pages/Home/Home.vue" />
+        <option value="$PROJECT_DIR$/takeaway-app/src/api/index.js" />
+        <option value="$PROJECT_DIR$/takeaway-server/routes/web/index.js" />
+        <option value="$PROJECT_DIR$/takeaway-app/src/pages/Shop/ShopGoods/ShopGoods.vue" />
+        <option value="$PROJECT_DIR$/takeaway-app/src/components/OrderList/OrderList.vue" />
+        <option value="$PROJECT_DIR$/takeaway-app/src/pages/Search/Search.vue" />
+        <option value="$PROJECT_DIR$/takeaway-app/src/components/ShopList/ShopList.vue" />
+        <option value="$PROJECT_DIR$/takeaway-admin/src/views/User/UserList.vue" />
+        <option value="$PROJECT_DIR$/takeaway-admin/src/router/index.js" />
+        <option value="$PROJECT_DIR$/takeaway-admin/src/views/Main.vue" />
+        <option value="$PROJECT_DIR$/takeaway-admin/src/views/Order/OrderList.vue" />
+        <option value="$PROJECT_DIR$/takeaway-app/src/pages/OrderDetail/OrderDetail.vue" />
+        <option value="$PROJECT_DIR$/takeaway-app/src/pages/Order/Order.vue" />
       </list>
     </option>
   </component>
@@ -241,11 +325,10 @@
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/takeaway-admin/package.json" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="47" />
-    <option name="y" value="61" />
-    <option name="width" value="1272" />
-    <option name="height" value="679" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -276,7 +359,7 @@
               <item name="takeaway" type="462c0819:PsiDirectoryNode" />
               <item name="takeaway-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -291,7 +374,7 @@
     <property name="editor.config.ad.shown" value="true" />
     <property name="editorconfig.notification" value="lf # \r - carriage return - cr" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/takeaway-app/src/common/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../参考/node-elm" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -309,17 +392,17 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\前端学习\毕业设计-迅捷外卖\项目代码\takeaway\takeaway-app\src\common\images" />
+      <recent name="D:\前端学习\毕业设计-迅捷外卖\项目代码\takeaway\takeaway-app\src\pages\Profile" />
+      <recent name="D:\前端学习\毕业设计-迅捷外卖\项目代码\takeaway\takeaway-app\src\pages\confirmOrder\children" />
       <recent name="D:\前端学习\毕业设计-迅捷外卖\项目代码\takeaway\takeaway-app\src\components\images" />
       <recent name="D:\前端学习\毕业设计-迅捷外卖\项目代码\takeaway\takeaway-app\src\components" />
-      <recent name="D:\前端学习\毕业设计-迅捷外卖\项目代码\takeaway\takeaway-app\src\utils" />
-      <recent name="D:\前端学习\毕业设计-迅捷外卖\项目代码\takeaway\takeaway-app\src\api" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\前端学习\毕业设计-迅捷外卖\项目代码\takeaway\takeaway-app\src\pages" />
+      <recent name="D:\前端学习\毕业设计-迅捷外卖\项目代码\takeaway\takeaway-app\src\pages\confirmOrder\ChooseAddress" />
+      <recent name="D:\前端学习\毕业设计-迅捷外卖\项目代码\takeaway\takeaway-app\static" />
+      <recent name="D:\前端学习\毕业设计-迅捷外卖\项目代码\takeaway\takeaway-app\src\pages\Info" />
       <recent name="D:\前端学习\毕业设计-迅捷外卖\项目代码\takeaway\takeaway-app\src\components\Loading" />
-      <recent name="D:\前端学习\毕业设计-迅捷外卖\项目代码\takeaway\takeaway-app\src\components\AlertTip" />
-      <recent name="D:\前端学习\毕业设计-迅捷外卖\项目代码\takeaway\takeaway-app\src\utils" />
-      <recent name="D:\前端学习\毕业设计-迅捷外卖\项目代码\takeaway\takeaway-admin\src\assets" />
-      <recent name="D:\前端学习\毕业设计-迅捷外卖\项目代码\takeaway\takeaway-admin\src\views\Category" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -372,16 +455,40 @@
       <workItem from="1589043009755" duration="26708000" />
       <workItem from="1589208525984" duration="8041000" />
       <workItem from="1589376408851" duration="9768000" />
+      <workItem from="1589463044882" duration="2324000" />
+      <workItem from="1589546923125" duration="115126000" />
+      <workItem from="1590502960442" duration="109775000" />
+      <workItem from="1590774573800" duration="575000" />
+      <workItem from="1590913598701" duration="632000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="306902000" />
+    <option name="totallyTimeSpent" value="535334000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="0" width="1382" height="744" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1845238" />
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.19419643" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.04918033" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49776787" visible="true" weight="0.77213115" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50223213" side_tool="true" weight="0.36885247" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19419643" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -392,27 +499,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49776787" visible="true" weight="0.23934427" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50223213" side_tool="true" weight="0.36885247" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18675596" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49776787" visible="true" weight="0.17704917" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.04918033" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49776787" weight="0.18360655" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50223213" side_tool="true" weight="0.36885247" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -422,11 +510,345 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/takeaway-app/src/pages/CityList/CityList.vue</url>
+          <line>2</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/takeaway-server/models/Category.js">
+    <entry file="file://$PROJECT_DIR$/takeaway-app/src/store/state.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/takeaway-app/src/store/mutations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="137" column="35" lean-forward="true" selection-start-line="137" selection-start-column="35" selection-end-line="137" selection-end-column="35" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#29#437#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/takeaway-app/src/common/_.scss" />
+    <entry file="file://$PROJECT_DIR$/takeaway-app/src/common/scss/_.scss" />
+    <entry file="file://$PROJECT_DIR$/takeaway-app/src/pages/AddressList/AddressList.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-958">
+          <caret line="71" column="37" lean-forward="true" selection-start-line="71" selection-start-column="37" selection-end-line="71" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/takeaway-app/src/common/scss/_mi.scss" />
+    <entry file="file://$PROJECT_DIR$/takeaway-app/src/filters/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#13#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/takeaway-app/src/store/getters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/takeaway-app/src/pages/Shop/ShopRatings/ShopRatings.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="66" column="29" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
+          <folding>
+            <element signature="e#3413#3448#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/takeaway-app/src/utils/mUtils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/takeaway-app/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="20" column="3" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="20" selection-end-column="3" />
+          <folding>
+            <element signature="e#155#217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/takeaway-app/src/mock/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="53" column="16" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="16" />
+          <folding>
+            <element signature="n#!!block;n#info#0;n#!!top" />
+            <element signature="e#13929#14761#0" />
+            <element signature="e#14767#15826#0" />
+            <element signature="e#15832#18859#0" />
+            <element signature="e#18865#21405#0" />
+            <element signature="e#21411#22951#0" />
+            <element signature="e#22957#25704#0" />
+            <element signature="e#25710#31985#0" />
+            <element signature="e#31991#39384#0" />
+            <element signature="e#39403#46062#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/takeaway-server/models/Shop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/takeaway-app/src/components/ShopCart/ShopCart.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/takeaway-app/src/pages/CityList/CityList.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-810" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/takeaway-app/src/pages/confirmOrder/ConfirmOrder.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="151" column="13" lean-forward="true" selection-start-line="151" selection-start-column="13" selection-end-line="151" selection-end-column="13" />
+          <folding>
+            <element signature="e#2898#2941#0" expanded="true" />
+            <element signature="e#3120#3167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/takeaway-app/src/pages/Shop/Shop.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="39" column="22" lean-forward="true" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/takeaway-app/src/components/FoodDetail/FoodDetail.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/takeaway-app/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="83" column="18" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#15#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/takeaway-app/src/pages/Home/Home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="87" column="46" lean-forward="true" selection-start-line="87" selection-start-column="46" selection-end-line="87" selection-end-column="46" />
+          <folding>
+            <element signature="n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#0;n#div#2;n#div#1;n#div#0;n#template#0;n#!!top" />
+            <element signature="e#2827#2856#0" expanded="true" />
+            <element signature="e#4740#6147#0" />
+            <element signature="e#6169#7560#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/takeaway-admin/src/views/Good/GoodEdit.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="71" column="33" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="33" />
+          <folding>
+            <element signature="n#el-tab-pane#0;n#el-tabs#0;n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-form-item#2;n#el-form#0;n#el-col#0;n#el-row#0;n#el-tab-pane#1;n#el-tabs#0;n#div#0;n#div#0;n#template#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/takeaway-app/src/components/OrderList/OrderList.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="100" column="24" lean-forward="true" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/takeaway-app/src/common/scss/mixin.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/takeaway-app/src/common/scss/common.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/takeaway-app/src/common/stylus/mixins.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="4" selection-start-line="2" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/takeaway-app/src/common/images/address_bottom.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/takeaway-app/src/common/images/add_phone.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/takeaway-app/src/common/images/add_address.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/takeaway-app/src/pages/Search/Search.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="62" column="34" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
+          <folding>
+            <element signature="n#header-top#0;n#section#0;n#template#0;n#!!top" />
+            <element signature="e#527#587#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/takeaway-app/src/pages/Shop/ShopGoods/ShopGoods.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3334">
+          <caret line="315" column="20" lean-forward="true" selection-start-line="315" selection-start-column="20" selection-end-line="315" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/takeaway-admin/src/views/User/UserList.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/takeaway-app/src/components/ShopList/ShopList.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="75" column="22" lean-forward="true" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/takeaway-admin/src/views/Shop/ShopList.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1036">
+          <caret line="46" column="39" lean-forward="true" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/takeaway-server/models/WebUser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/takeaway-admin/src/views/Good/GoodList.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="29" column="26" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="29" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#template#0;n#el-table-column#2;n#el-table#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/takeaway-admin/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1053">
+          <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/takeaway-admin/src/views/Main.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+          <folding>
+            <element signature="n#el-submenu#0;n#el-menu#0;n#el-col#0;n#el-row#0;n#el-container#0;n#template#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/takeaway-admin/src/views/AdminUser/AdminUserList.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1026">
+          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/takeaway-server/models/Order.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/takeaway-server/models/Good.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="8" />
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/takeaway-admin/src/views/Order/OrderList.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/takeaway-app/src/pages/Order/Order.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1566">
+          <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/takeaway-server/util/sms_util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -437,184 +859,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-server/routes/admin/index.js">
+    <entry file="file://$PROJECT_DIR$/takeaway-app/src/store/actions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="127" column="2" selection-start-line="127" selection-start-column="2" selection-end-line="127" selection-end-column="2" />
+        <state relative-caret-position="3834">
+          <caret line="179" column="14" selection-start-line="179" selection-start-column="14" selection-end-line="179" selection-end-column="14" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-app/config/index.js">
+    <entry file="file://$PROJECT_DIR$/takeaway-app/src/api/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-app/src/utils/rem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="7" column="52" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-app/.postcssrc.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-app/index.html">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-app/static/css/reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-app/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492264">
-          <caret line="18232" column="17" selection-start-line="18232" selection-start-column="17" selection-end-line="18232" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-app/src/pages/Search/Search.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="74" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-app/src/utils/mUtils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="245" column="27" selection-start-line="245" selection-start-column="27" selection-end-line="245" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-app/src/common/scss/common.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2160">
-          <caret line="89" column="20" lean-forward="true" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-app/src/common/stylus/mixins.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-app/src/components/HeaderTop/HeaderTop.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="48" column="18" lean-forward="true" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-app/src/common/scss/mixin.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-app/src/store/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-app/src/store/state.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-app/src/pages/Shop/Shop.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="16" />
-          <folding>
-            <element signature="e#531#594#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-app/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-server/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-app/src/api/fetch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-app/src/pages/Login/Login.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2700">
-          <caret line="101" column="7" selection-start-line="101" selection-start-column="7" selection-end-line="101" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-server/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-app/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-app/src/pages/Location/Location.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="101" column="2" selection-start-line="101" selection-start-column="2" selection-end-line="101" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-app/src/components/CartControl/CartControl.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="68" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="68" />
+        <state relative-caret-position="1944">
+          <caret line="75" column="27" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -627,198 +885,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-app/.eslintrc.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-app/src/components/AlertTip/AlertTip.vue">
+    <entry file="file://$PROJECT_DIR$/takeaway-server/routes/admin/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="34" selection-start-line="34" selection-end-line="34" selection-end-column="36" />
-          <folding>
-            <element signature="e#1440#2064#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-app/src/components/Loading/Loading.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding>
-            <element signature="e#1026#1159#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-app/src/pages/Shop/ShopGoods/ShopGoods.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3402" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-app/src/components/ShopCart/ShopCart.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="57" column="27" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-app/src/components/ShopList/ShopList.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-app/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="91" column="20" selection-start-line="91" selection-start-column="14" selection-end-line="91" selection-end-column="20" />
+        <state relative-caret-position="1647">
+          <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#15#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-server/api/ajax.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-app/src/api/index.js">
+    <entry file="file://$PROJECT_DIR$/takeaway-app/src/pages/OrderDetail/OrderDetail.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-app/src/pages/CityList/CityList.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-          <folding>
-            <element signature="n#header-top#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#ul#0;n#section#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="e#1633#1693#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-app/src/pages/City/City.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1782">
-          <caret line="30" selection-start-line="30" selection-end-line="30" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-app/src/pages/Order/Order.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-server/util/sms_util.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1719">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-app/src/pages/Profile/Profile.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1081">
-          <caret line="65" column="28" lean-forward="true" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
-          <folding>
-            <element signature="n#style#0;n#van-button#0;n#div#2;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-app/src/pages/Home/Home.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="217" column="12" selection-start-line="217" selection-start-column="12" selection-end-line="217" selection-end-column="21" />
-          <folding>
-            <element signature="e#2843#2872#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-app/src/mock/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="405">
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/takeaway-server/routes/web/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="50" column="22" lean-forward="true" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+        <state relative-caret-position="79">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-app/src/mock/shops.json">
+    <entry file="file://$PROJECT_DIR$/takeaway-app/src/pages/Login/Login.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-app/src/store/mutations.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="-580">
+          <caret line="181" column="10" lean-forward="true" selection-start-line="175" selection-start-column="8" selection-end-line="181" selection-end-column="10" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#29#325#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-app/src/store/mutation-types.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-app/src/store/actions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-783">
-          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#38#334#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-app/src/store/getters.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/takeaway-app/src/pages/confirmOrder/confirmOrder.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="72" column="31" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
-          <folding>
-            <element signature="n#header-top#0;n#section#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#router-link#0;n#section#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#router-link#0;n#section#3;n#section#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#router-link#1;n#section#3;n#section#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="e#5030#5069#0" expanded="true" />
-            <element signature="e#11923#12831#0" />
+            <element signature="e#2643#2703#0" expanded="true" />
           </folding>
         </state>
       </provider>

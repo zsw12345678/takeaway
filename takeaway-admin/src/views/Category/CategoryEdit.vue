@@ -7,16 +7,6 @@
           <el-form-item label="分类名称" prop="name">
             <el-input v-model="model.name" placeholder="请输入分类名称"></el-input>
           </el-form-item>
-          <el-form-item label="上级分类" prop="parent">
-            <el-select v-model="model.parent" placeholder="请选择分类" clearable>
-              <el-option
-                v-for="item in parents"
-                :key="item._id"
-                :label="item.name"
-                :value="item._id">
-              </el-option>
-            </el-select>
-          </el-form-item>
           <el-form-item style="margin-top: 2rem;">
             <el-button type="primary" native-type="submit">提交</el-button>
             <el-button @click="resetForm('model')">重置</el-button>
@@ -42,19 +32,14 @@
     data () {
       return {
         model: {
-          name: '',
-          parent: ''
+          name: ''
         },
         rules: {
           name: [
             { required: true, message: '分类名称不能为空', trigger: ['blur', 'change'] },
             { min: 2, max: 4, message: '长度在 2 到 4 个字符', trigger: ['blur', 'change'] }
-          ],
-          parent: [
-            { trigger: 'change' }
           ]
-        },
-        parents: []
+        }
       }
     },
 
@@ -72,7 +57,6 @@
     },
 
     created () {
-      this.fetchParents();
       this.id && this.fetch();
       console.log(this.path)
     },
@@ -87,12 +71,6 @@
       async fetch () {
         const res = await this.$http.get(`rest/categories/${this.id}`);
         this.model = res.data;
-      },
-
-      // 获取父级分类列表
-      async fetchParents () {
-        const res = await this.$http.get('rest/categories');
-        this.parents = res.data;
       },
 
       // 提交新建的分类

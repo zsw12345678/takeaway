@@ -10,15 +10,16 @@ const schema = new Schema({
   minPrice: {type: Number, default: 0},
   deliveryPrice: {type: Number, default: 0},
   bulletin: {type: String, default: ""},
-  ratingCount: {type: Number, default: 0},
   score: {type: Number, default: 0},
   serviceScore: {type: Number, default: 0},
   foodScore: {type: Number, default: 0},
   rankRate: {type: Number, default: 0},
   sellCount: {type: Number, default: 0},
+  ratingCount: {type: Number, default: 0},
   phone: {type: String},
   address: {type: String},
-  openTime: {type: Array}
+  openTime: {type: Array},
+  distance: {type: Number, default: 0}
 });
 
 module.exports = mongoose.model('Shop', schema);

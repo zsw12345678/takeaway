@@ -7,7 +7,7 @@ const goodSchema = new Schema({
   oldPrice: {type: Number, default: ""},
   info: {type: String, default: ""},
   icon: {type: String},
-  menu_id: {type: Schema.Types.ObjectId, ref: 'Menu'},
+  menu_id: [{type: Schema.Types.ObjectId, ref: 'Menu'}],
   shop_id: {type: Schema.Types.ObjectId, ref: 'Shop'}
 });
 

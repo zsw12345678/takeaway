@@ -13,7 +13,10 @@
             <img :src="scope.row.icon" style="height: 3rem" />
           </template>
         </el-table-column>
-        <el-table-column prop="menu_id.name" label="所属分类" show-overflow-tooltip>
+        <el-table-column prop="menu_id" label="所属分类" width="120" show-overflow-tooltip>
+          <template slot-scope="scope">
+            <span v-for="menu in scope.row.menu_id" :key="menu._id">{{menu.name}}<br /></span>
+          </template>
         </el-table-column>
         <el-table-column prop="price" label="现价" show-overflow-tooltip>
           <template slot-scope="scope">
